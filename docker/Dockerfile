@@ -1,0 +1,4 @@
+FROM mysql:5.7.34
+
+ENV WORK_PATH /workspace
+WORKDIR $WORK_PATH
